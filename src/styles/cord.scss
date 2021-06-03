@@ -1,3 +1,7 @@
+@import "node_modules/bootstrap/scss/_functions.scss";
+@import "node_modules/bootstrap/scss/_variables.scss";
+@import "node_modules/bootstrap/scss/mixins/_breakpoints.scss";
+
 $font-stack: Helvetica, sans-serif;
 $primary-color: #333;
 $bg-color: hsl(244, 38%, 16%);
@@ -53,4 +57,17 @@ th {
 }
 td {
   font-size: 15px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  .card1 {
+  }
+  .card2 {
+  }
 }
